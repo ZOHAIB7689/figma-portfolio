@@ -6,8 +6,8 @@ const Header: React.FC = () => {
   return (
     <header className="flex justify-between items-center py-6 bg-white">
       <div className="flex items-center">
-        <Image
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3443032b11a5d052b4e65864fa8a87bfa6565ea291e9faf518b8328ba388a8a2?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070"
+        <img
+          src="https://my-portfolio-blush-nu.vercel.app/_next/image?url=%2Flogo3.png&w=48&q=75"
           alt="Logo"
           width={80}
           height={80}

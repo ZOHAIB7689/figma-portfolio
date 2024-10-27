@@ -2,9 +2,7 @@ import React from "react";
 import Header from "./Header";
 import ProjectCard from "./ProjectCard";
 
-interface MyComponentProps {}
-
-const MyComponent: React.FC<MyComponentProps> = () => {
+const MyComponent: React.FC = () => {
   const projects = [
     { imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/173bed4ae30386eab2aea5828365a00ff52a339aad2dce61b23d25dc39e2ff9a?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070" },
     { imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/88c3310fc7d783b8b395b31190920c235c34f95d739cbdafeebfb2d8f4b7508c?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070" },

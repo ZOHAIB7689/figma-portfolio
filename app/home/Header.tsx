@@ -9,8 +9,8 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <header className="flex flex-wrap justify-between items-center px-8 py-6 bg-white">
       <div className="flex items-center">
-        <Image
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/3443032b11a5d052b4e65864fa8a87bfa6565ea291e9faf518b8328ba388a8a2?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070"
+        <img
+          src="https://my-portfolio-blush-nu.vercel.app/_next/image?url=%2Flogo3.png&w=48&q=75"
           alt="Logo"
           width={80}
           height={80}
@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = () => {
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <Image
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/17bb8964ed9c5275484ca1af0285562fd8bae0bf4fae4a42d4c4ffac717d154c?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070"
+            src="/bg1.png"
             alt="Developer illustration"
             width={500}
             height={360}

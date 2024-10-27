@@ -18,9 +18,11 @@ const AboutMe: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/143c30966b64b3f2dda946a750e8de2e9bebeb7509db1ef6adae969e001aa8de?placeholderIfAbsent=true&apiKey=4ac13593b70540019f4117ad092ab070"
               alt="LinkedIn"
+              width={80}
+              height={80}
               className="w-6 h-6 mr-2"
             />
             LinkedIn
@@ -29,9 +31,11 @@ const AboutMe: React.FC = () => {
         <div className="md:w-1/2">
           <div className="relative">
             <div className="absolute top-0 right-0 w-4 h-4 bg-white rounded-full" />
-            <img
+            <Image
               src="/bg2.png"
               alt="Profile"
+              width={500}
+              height={300}
               className="w-full h-auto rounded-lg"
             />
           </div>
